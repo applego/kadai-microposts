@@ -54,3 +54,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # pagegeneration add
 gem 'kaminari'
+
+#debug
+gem 'pry-byebug', group: :development
