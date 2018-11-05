@@ -27,6 +27,23 @@
         <%= f.label :password_confirmation, 'Confirmation' %>
         <%= f.password_field :password_confirmation, class: 'form-control' %>
       </div>
+      
+      <div class="form-group">
+        <%= f.label :age, 'age' %>
+        <%= f.text_field :age, class: 'form-control' %>
+      </div>
+      
+      
+      <div class="form-group">
+        <%= f.label :introduce, 'introduce' %>
+        <%= f.text_field :introduce, class: 'form-control' %>
+      </div>
+      
+      
+      <div class="form-group">
+        <%= f.label :favoriteteam, 'favoriteteam' %>
+        <%= f.text_field :favoriteteam, class: 'form-control' %>
+      </div>
 
       <%= f.submit 'Update', class: 'btn btn-success btn-block' %>
     <% end %>
